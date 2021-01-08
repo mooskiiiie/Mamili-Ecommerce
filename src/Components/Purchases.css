@@ -1,0 +1,29 @@
+.purchases{
+    display: flex;
+    flex-direction: column;
+    background-color: #E8A273;
+    border-radius: 30px;
+    margin: 20px 30px;
+    padding-bottom: 20px;
+}
+
+
+.purchases__images{
+    display: flex;
+    
+}
+
+.purchases > h2{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px;
+    margin: 20px 10px;
+}
+
+.purchases__images > img{
+    margin: 10px 15px;
+    padding: 10px;
+    width: 185px;
+    border-radius: 30px;
+}
+

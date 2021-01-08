@@ -1,0 +1,18 @@
+.product > img{
+    width: 135px;
+    border-radius: 20px;
+    height: 120px;
+}
+
+.product > img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.product{    
+    margin: 15px;
+    padding: 5px;
+    z-index: 1;
+    width: 100%;
+}

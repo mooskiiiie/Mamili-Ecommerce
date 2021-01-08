@@ -1,0 +1,38 @@
+.user{
+    display: flex;
+}
+
+.user__photo > img{
+    width: 170px;
+    height: auto;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.user__buttons > button{
+    background-color: #4B5F22;
+    color: #FEE9A0;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.user__buttons{
+    display: flex;
+    margin-top: 5px;
+}
+
+.user__info{
+    display: flex;
+    flex-direction: column;
+}
+
+.user__info > h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.user__info > p{
+    font-size: 17px;
+    margin: 5px 0;
+}

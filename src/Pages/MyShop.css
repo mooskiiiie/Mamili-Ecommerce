@@ -1,0 +1,58 @@
+.myshop__mainLeft{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.myshop__carousel{
+    margin-left: 5px;
+}
+
+.myshop__mainRight{
+   margin: 0 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.myshop__main{
+    display: flex;
+   
+}
+
+.myshop__reviews{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.review__one{
+    background-color: #F0C5A6;
+    border-radius: 15px;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.review__one > img{
+    border-radius: 50%;
+    margin: 5px 10px;
+}
+
+.myshop__reviews > h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.myshop__sales{
+    background-color: #FAF1E7;
+    border-radius: 20px;
+    border: 1px solid #FAF1E7;
+    margin-bottom: 30px;
+}
+
+.myshop__playlist{
+    margin-top: 70px;
+}

@@ -1,0 +1,99 @@
+.polls__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.polls{
+    display: flex;
+    flex-direction: column;
+}
+
+.polls__main{
+    display: grid;
+    grid-template-columns: 280px 280px 280px 280px;
+    align-self: center;
+    grid-gap: 20px 50px;
+
+}
+
+.orig{
+    color: black;
+}
+
+.boy{
+    display: flex;
+    flex-direction: column;
+}
+
+.eh{
+    margin-left: 20px;
+}
+
+.modal__comments{
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.modal__input{
+    width: 200px;
+    height: 25px;
+    margin-left: 5px;
+}
+
+.popup__image{
+    width: 200px;
+}
+
+.modal__options{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.modal__percent{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+
+.polls__headerRight{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 20px 60px;
+}
+
+.polls__headerLeft{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 20px 60px;
+}
+
+.dropdown{
+    color: black;
+    background-color:#C4C4C4;
+    border-radius: 5px;
+    
+}
+
+.polls__headerLeft > h2{
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.polls__headerLeft > span{
+   margin-left: 50px;
+   margin-right: 10px;
+}
+
+.polls__add{
+    margin-left: 20px;
+   margin-right: 10px;
+}
+
+.polls__search{
+    margin-right: 20px;
+}
+

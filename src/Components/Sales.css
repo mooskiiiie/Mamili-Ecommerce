@@ -1,0 +1,51 @@
+.sales{
+    display: flex;
+    flex-direction: column;
+    background-color: #E8A273;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 25px 30px;
+    box-shadow: 1px 1px 10px 2px #C38357;
+    transition: 0.9s;
+}
+
+.sales:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.sales__title{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.sales__title > h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sales__header{
+    display: grid;
+    grid-template-columns: 50px 81px 145px 244px 160px;
+    grid-column-gap: 50px;
+    font-size: 20px;
+    border-bottom: 1px solid;
+    padding: 10px;
+    
+
+}
+
+.headers{
+    font-weight: bolder;
+}
+
+.sales__number{
+    border: 1px solid #AD6438;
+    background-color: #AD6438;
+    color: #FCFAFA;
+    border-radius: 80%;
+    font-weight: 700;
+    font-size: 30px;
+}

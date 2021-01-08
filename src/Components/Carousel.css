@@ -1,0 +1,65 @@
+.carousel__header{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 10px;
+ margin-top: 20px;
+ margin-left: 20px;
+ margin-right: 20px;
+}
+
+.carousel__images{
+    display: flex;
+    flex-direction: column;
+}
+
+.lists{
+    margin: 0 20px;
+    padding: 10px;
+    display: flex;
+    width: 180px;
+}
+
+.lists > img{
+    width: 100%;
+    margin: 0 35px;
+    border-radius: 10px;
+    margin: 0 30px;
+}
+
+.add{
+    margin: 5px;
+}
+
+.book{
+    margin: 5px;
+}
+
+.search{
+    margin: 5px;
+}
+
+.carousel__header > h3{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.arrows{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 40px;
+}
+
+.carousel{
+    display: flex;
+    flex-direction: column;
+    background-color: #FAF1E7;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 2px #C38357;
+    transition: 0.8s;
+}
+
+.carousel:hover{
+    transform: scale(1.1);
+}
