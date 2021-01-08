@@ -1,0 +1,58 @@
+.shoppage__product{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+}
+
+.page__logo{
+    margin: 40px 20px;
+}
+
+.shoppage{
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.shoppage__shop{
+    background-color: #C38357;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.grace{
+    display: flex;
+}
+
+.grace__name{
+    padding: 20px;
+    margin: 50px 10px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.grace__logo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.grace__products{
+    display: flex;
+    padding: 20px;
+    margin-top: 10px;
+    justify-content: space-between
+}
+
+.grace__productsImage{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
