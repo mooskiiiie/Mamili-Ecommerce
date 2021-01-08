@@ -1,0 +1,11 @@
+.shop__container{
+    background-color: #C38357;
+    border-radius: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.grace__goods:hover{
+    text-decoration: none;
+    color: black;
+}

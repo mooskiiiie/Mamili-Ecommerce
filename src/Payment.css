@@ -1,0 +1,85 @@
+.payment__top{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    object-fit: contain;
+}
+
+.payment__logoTwo{
+    max-height: 45px;
+    object-fit: contain;
+    margin: 20px 58px;
+    display: flex;
+    align-self: flex-start;
+}
+
+.shipping{
+    margin-left: 58px;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.payment__logo{
+    max-height: 70px;
+    margin: 10px 58px;
+    padding-top: 20px;
+    object-fit: contain;
+}
+
+.payment__container > h1{
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    border-bottom: 1px solid;
+    margin-top: 20px;
+    background-color: #AD6438;
+    color: #FFE5CB;
+    border-radius: 5px;
+}
+
+.payment__container > h1 a {
+    text-decoration: none;
+    color: #FFE5CB;
+}
+
+.payment__section{
+    display: flex;
+    padding: 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid;
+    border-color: #CEAA87;
+    background-color: #E5CEB8;
+    border-radius: 5px;
+}
+
+.payment__title > h3{
+    font-weight: 700;
+}
+
+.payment__address{
+    margin-left: 40px;
+   
+}
+
+.address{
+    border: none;
+    background-color: #AD6438;
+    border-radius: 5px;
+}
+
+.payment__address > input{
+    color: #AD6438;
+    background-color: #EFEEEE;
+    border-radius: 5px;
+    border: none;
+    margin-right: 8px;
+}
+
+.payment__title{
+    flex: 0.2;
+}
+
+.payment__address, .payment__items, .payment__details{
+    flex: 0.8;
+}
+

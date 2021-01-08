@@ -1,0 +1,45 @@
+.tuklas__brands{
+    margin: 40px 20px;
+}
+
+.brands__Categories{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+}
+
+.brands__Header{
+    color: #834521;
+    margin: 5px 0;
+}
+
+.brands__Option{
+    color: #C38357;
+    text-decoration: underline;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.brands__Container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.brands__logo{
+    display: flex;
+}
+
+.brands__images{
+    background-color: #C38357;
+    border-radius: 30px;
+    margin: 35px 20px;
+}
+
+.brands__ShopContainer{
+    border: 0px solid #FAF1E7 ;
+    border-radius: 50px;
+    background-color: #FAF1E7;
+    margin: 0 20px;
+    padding: 10px;
+}

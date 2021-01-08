@@ -1,0 +1,47 @@
+.Kariton{
+    margin: 40px 20px;
+    width: 300px;
+}
+
+.checkout__title{
+    font-weight: 700;
+    margin: 10px;
+}
+
+.checkout__container{
+    display: flex;
+    padding: 20px;
+    height: max-content;
+    justify-content: space-between;
+}
+
+.checkout__SelectAll > h3{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.checkout__SelectAll{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #CEAA87;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkout__totalItems{
+    background-color: #CEAA87;
+    
+    border-radius: 10px;
+}
+
+.checkout__right{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.checkout__left{
+    margin-left: 20px;
+    margin-right: 20px;
+}
